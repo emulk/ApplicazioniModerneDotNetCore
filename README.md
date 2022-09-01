@@ -7,3 +7,14 @@ Il framework si è evoluto, arrivando alla versione 7, e può essere utilizzato 
 Con il Framework .net Core, è possibile creare un’unica applicazione che può essere eseguita su diverse piattaforme, Windows, Linux, MacOS, Android e iOS. 
 Soltanto due versioni .Net Core sono LTS , .Net 6 e .Net Core 3.1, ovvero supportate a lungo termine. L’unica differenza tra le versioni LTS e le versioni correnti è dovuta al tempo di supporto da parte della Microsoft, le versioni LTS ricevono supporto e patch per 3 anni, mentre le versioni correnti per 18 mesi.
 
+
+I componenti più importanti del framework .Net Core sono:
+*	Entity Framework Core
+*	Identity Core
+*	MVC Core
+*	Razor Core
+*	SignalR
+*	Blazor
+*	Kestrel web server
+Alcuni dei componenti sopra elencati li approfondiremo nei prossimi capitoli.
+
