@@ -18,3 +18,8 @@ I componenti più importanti del framework .Net Core sono:
 *	Kestrel web server
 Alcuni dei componenti sopra elencati li approfondiremo nei prossimi capitoli.
 
+## Storia
+ASP.Net è stato rilascio per la prima volta nel Gennaio 2002 con la versione 1.0 del .NET Framework. ASP.Net è l’evoluzione di ASP, Active Server Pages.
+Il successore di ASP.Net è ASP.Net Core, rilasciato per la prima volta nel 2016, ed usa il progetto open source .NET Compiler Platform, nome in codice “Roslyn”, ed è un framework multipiattaforma.
+Storia delle versioni .Net Core, e Versione di Visual Studio che lo supporta.
+
