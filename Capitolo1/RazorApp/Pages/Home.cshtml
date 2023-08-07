@@ -1,0 +1,18 @@
+﻿@page
+@model RazorApp.Pages.HomeModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Benvenuto</h1>
+    <p>Questa è la pagina Home della mia Applicazione Web</p>
+  
+    @if (Model.Name != null)
+    {
+        <p>Il mio nome è @Model.Name</p>
+    }
+    <hr />
+
+   
+</div>

@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section scripts{
+    <script type="text/javascript">
+        document.getElementById("data").innerHTML = Date();
+    </script>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Benvenuto</h1>
+    <p>Pubblico la mia prima applicazione</p>
+
+    @{
+        var headerTitle = "Razor Code Blocks";
+        <h1>@headerTitle</h1>
+    }
+
+    <hr />
+
+    <div>Elenco puntato</div>
+    @{
+        <ul>
+            @foreach (var item in @Model.items)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    }
+
+    <div id="data"></div>
+</div>
+
+
