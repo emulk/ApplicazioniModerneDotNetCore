@@ -17,4 +17,10 @@
     <Folder Include="Core\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\lib\fontawesome\css\fontawesome.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

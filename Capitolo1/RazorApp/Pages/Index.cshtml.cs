@@ -7,7 +7,6 @@ namespace RazorApp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public List<string> items = new List<string> { "Mela", "Banana", "Arancia", "Kiwi" };
-
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;

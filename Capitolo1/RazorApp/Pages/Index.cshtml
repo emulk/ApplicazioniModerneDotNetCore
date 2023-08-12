@@ -7,20 +7,33 @@
 @section scripts{
     <script type="text/javascript">
         document.getElementById("data").innerHTML = Date();
+        $.ajax({
+            url: "/gateway/info",
+            method: "GET",
+            contentType:"application/json",
+            success: function (data) {
+                $("#version").html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error("Error:", error);
+            }
+        });
     </script>
 }
-
 <div class="text-center">
+    <div style="font-size:2em; font-weight:bold; color:red" >
+        <i class="fa-solid fa-user"></i>
+        Versione: 
+        <span id="version">
+        </span>
+    </div>
     <h1 class="display-4">Benvenuto</h1>
     <p>Pubblico la mia prima applicazione</p>
-
     @{
         var headerTitle = "Razor Code Blocks";
         <h1>@headerTitle</h1>
     }
-
     <hr />
-
     <div>Elenco puntato</div>
     @{
         <ul>
@@ -30,8 +43,37 @@
             }
         </ul>
     }
-
     <div id="data"></div>
+    <div class="alert alert-primary" role="alert">
+        Un esempio di Alert con Bootstrap
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Indirizzo Email </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Testo</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary">Button</button>
+
+
+    <div class="container text-center" style="margin: 30px;">
+        <div class="row" style="border: 1px solid violet;">
+            <div class="col" style="border: 1px solid violet; padding:20px;">
+                Colonna
+            </div>
+            <div class="col" style="border: 1px solid violet; padding:20px;">
+                Colonna
+            </div>
+            <div class="col" style="border: 1px solid violet; padding:20px;">
+                Colonna
+            </div>
+        </div>
+    </div>
+
+
+
 </div>
 
 
