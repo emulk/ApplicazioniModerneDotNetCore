@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Documents\Orgest\ApplicazioniModerneDotNet\gitRepo\Capitolo1\RazorApp
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Documents/Orgest/ApplicazioniModerneDotNet/gitRepo/Capitolo1/RazorApp/Pages/Contatore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGF0b3JlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Documents/Orgest/ApplicazioniModerneDotNet/gitRepo/Capitolo1/RazorApp/Pages/Componenti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Documents/Orgest/ApplicazioniModerneDotNet/gitRepo/Capitolo1/RazorApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

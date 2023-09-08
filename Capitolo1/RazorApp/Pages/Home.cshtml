@@ -4,37 +4,55 @@
     ViewData["Title"] = "Home page";
 }
 
-            <div class="text-center">
-                <h1 class="display-4">Benvenuto</h1>
-                <p>Questa è la pagina Home della mia Applicazione Web</p>
-  
-                @if (Model.Name != null)
-                {
-                    <p>Il mio nome è @Model.Name</p>
-                }
-                <hr />
-    
+<div class="text-center">
+    <h1 class="display-4">Benvenuto</h1>
+    <p>Questa è la pagina Home della mia Applicazione Web</p>
 
-                <h1>Titolo</h1>
-
-                <div id="div1">Test</div>
-                <div class="div2">Test</div>
-                
-                <button id="mybutton">Click</button>
-
-   
-            </div>
-            <script>
-                $("h1").html("Titolo della mia Pagina Home");
-
-                $("#div1").html("Modifico il testo del div");
-                $(".div2").html("Modifico il testo del div selezionato usando la sua classe");
-
-                $("#mybutton").on("click", function () {
-                    // mostra un alert quando il pulsante viene cliccato 
-                    alert("Hai cliccato il Button")
-                });
+    @if (Model.Name != null)
+    {
+        <p>Il mio nome è @Model.Name</p>
+    }
+    <hr />
 
 
+    <h1>Titolo</h1>
 
-            </script>
+    <div id="div1">Test</div>
+    <div class="div2">Test</div>
+
+    <button id="mybutton">Click</button>
+
+    @{
+        var bloccoDiCodice = true;
+        <p>Pagina HTML, codice C# @bloccoDiCodice</p>
+    }
+
+
+    <p>Orario : @(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+
+    @{
+        var utente = "Mario";
+    }
+
+    <p>Nome@(utente)</p>
+
+</div>
+<script>
+
+    $("h1").html("Titolo della mia Pagina Home");
+
+    $("#div1").html("Modifico il testo del div");
+    $(".div2").html("Modifico il testo del div selezionato usando la sua classe");
+
+
+
+
+    $("#mybutton").on("click", function () {
+        // mostra un alert quando il pulsante viene cliccato
+        alert("Hai cliccato il Button")
+    });
+
+
+
+</script>

@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/"
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -20,6 +20,7 @@
         });
     </script>
 }
+
 <div class="text-center">
     <div style="font-size:2em; font-weight:bold; color:red" >
         <i class="fa-solid fa-user"></i>
@@ -43,6 +44,9 @@
             }
         </ul>
     }
+
+
+
     <div id="data"></div>
     <div class="alert alert-primary" role="alert">
         Un esempio di Alert con Bootstrap
@@ -73,7 +77,20 @@
     </div>
 
 
+    <h1>Componenti Razor</h1>
+    <hr />
+    <component type="typeof(Contatore)" render-mode="ServerPrerendered" ValoreIniziale="55" />
+    <hr />
+    <component type="typeof(Contatore)" render-mode="ServerPrerendered" ValoreIniziale="25" />
 
+    <hr />
+    <component type="typeof(Contatore)" render-mode="ServerPrerendered" >
+        <param Name="Model.UserName" value="34" />
+    </component>
+
+
+    <hr />
+    <Counter />
 </div>
 
 

@@ -6,7 +6,7 @@ namespace RazorApp.Gateway
     [Route("/gateway/statuscode")]
     public class StatusCodeController : ControllerBase
     {
-        [HttpGet(Name = "GetInfo")]
+        [HttpGet(Name = "GetStatusCode")]
         public ActionResult Get()
         {
 

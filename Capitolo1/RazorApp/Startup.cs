@@ -14,6 +14,7 @@ namespace RazorApp
         {
             services.AddControllers();
             services.AddRazorPages();
+            //services.AddServerSideBlazor();
 
             AddSwagger(services);
         }
@@ -48,7 +49,9 @@ namespace RazorApp
             {
                 endpoints.MapControllers();
                 endpoints.MapRazorPages();
+                //endpoints.MapBlazorHub();
             });
+
         }
 
         private void AddSwagger(IServiceCollection services)
