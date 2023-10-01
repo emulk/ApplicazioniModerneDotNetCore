@@ -1,8 +1,9 @@
 # Applicazioni Moderne Razor in Dot Net
 
 <p align="center">
-  <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://leggi.amazon.it/kp/card?asin=B0CFK3F2JV&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_NV3DZMR7SJ7GC8K84GDF" ></iframe>
+  <img src="./ApplicazioniModerneRazor.jpg" width="50%" alt="Applicazioni Moderne Razor in .Net" />
 </p>
+
 
 Questo libro è rivolto agli sviluppatori desiderosi di imparare a creare applicazioni web, in .NET e Razor.
 Verranno introdotti gli argomenti riguardanti la creazione di un applicazione web in .NET e imparerai a creare pagine web usando HTML, Javascript, CSS e C#
@@ -122,7 +123,8 @@ Tecnologie, framework e linguaggi che utilizzerai:
 
 - [One-time donation via PayPal](https://paypal.me/oshehaj?locale.x=en_US)
 
-<a href="https://ko-fi.com/orgestshehaj" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 215px !important;" ></a>
+<a title="Support me on ko-fi.com" class="kofi-button" style="background-color:#29abe0;" href="https://ko-fi.com/J3J41QR7Y" target="_blank"> <span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg">Support Me on Ko-fi</span></a>
+
 
 Scrivere è un progetto che richiede molto tempo e impegno. Con il tuo aiuto sarò motivato per continuare il mio lavoro di scrittore.
 
