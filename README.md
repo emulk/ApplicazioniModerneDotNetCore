@@ -1,7 +1,7 @@
 # Applicazioni Moderne Razor in Dot Net
 
 <p align="center">
-  <img src="./ApplicazioniModerneRazor.jpg" width="50%" alt="Applicazioni Moderne Razor in .Net" />
+  <img src="./ApplicazioniModerneRazor.jpg" width="50%" alt="Applicazioni Moderne Razor in .Net" onclick="window.open('https://amzn.eu/d/69Gq8l2')"/>
 </p>
 
 
