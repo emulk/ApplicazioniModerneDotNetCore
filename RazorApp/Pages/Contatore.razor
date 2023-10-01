@@ -1,0 +1,25 @@
+﻿@page "/contatore"
+
+<center>
+
+    @for (int i = 0; i < count; i++)
+    {
+        <span class="card" style="width: 18rem; display: inline-block">
+            <span class="card-body">
+                <h5 class="card-title">Componente Riutilizzabile</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Razor</h6>
+                <p>Valore Variabile Count: @count</p>
+                <i class="fa-solid fa-shuttle-space"></i>
+            </span>
+        </span>
+        }
+</center>
+
+<br />
+
+
+@code {
+
+    int count = 3;
+}
+
