@@ -1,0 +1,90 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container-fluid text-center">
+    <div class="row navMenu">
+        <div class="col menudName">
+            DASHBOARD
+        </div>
+        <div class="col menuTime">
+                      
+            @Model.GetTime()
+        </div>
+        <div class="col menuLogin">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="login">Login</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col menuSlider">
+            <div class="row">
+                <div class="col homeMenuChoice">
+                    <i class="fa-solid fa-house"></i> Home
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col homeMenuVoice">
+                    <i class="fa-solid fa-chart-line"></i>  Markets
+                </div>
+            </div>
+            <div class="row">
+                <div class="col homeMenuVoice">
+                    <i class="fa-solid fa-right-left"></i> Exchange
+                </div>
+            </div>
+            <div class="row">
+                <div class="col homeMenuVoice">
+                    <i class="fa-solid fa-compact-disc"></i> Features
+                </div>
+            </div>
+            <div class="row">
+                <div class="col homeMenuVoice">
+                    <i class="fa-solid fa-wallet"></i> Wallet
+                </div>
+            </div>
+            <div class="row">
+                <div class="col homeMenuVoice">
+                    <i class="fa-solid fa-user"></i> User
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <div class="col chart-container">
+                    <canvas id="chart1" style="position: relative; height:400px; width:500px"></canvas>
+                </div>
+            </div>
+            <div class="row tableRow">
+                <div class="col chart-container-polararea">
+                    <canvas id="chart2" style="position: absolute; height:400px; width:400px"></canvas>
+                </div>
+                <div class="col colTable">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Market Cap</th>
+                                <th scope="col">Volume</th>
+                                <th scope="col">Total Supply</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dashboardTable">
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    </div>
+</div>

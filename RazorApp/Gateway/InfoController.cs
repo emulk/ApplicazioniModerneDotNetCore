@@ -3,10 +3,10 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace RazorApp.Gateway
 {
-    [Route("/gateway/info")]
+    [Route("/gateway")]
     public class InfoController : ControllerBase
     {
-        [HttpGet(Name = "GetInfo")]
+        [HttpGet("info")]
         [SwaggerOperation(Summary = "Get Info")]
         [SwaggerResponse(200, type: typeof(bool))]
         [SwaggerResponse(500, "Something bad happened!")]
